@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "353676267388",
+    "firebase_url": "https://indianrasoichat.firebaseio.com",
+    "project_id": "indianrasoichat",
+    "storage_bucket": "indianrasoichat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353676267388:android:b6a86aca73062223815ef9",
+        "android_client_info": {
+          "package_name": "com.example.recipychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353676267388-23eumtr8eah37nh2tmf63nf851ukt7lf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recipychat",
+            "certificate_hash": "821400626abe04b64cdc16a16bc77e0f0593a80c"
+          }
+        },
+        {
+          "client_id": "353676267388-6qrnvdkdnt34mlbl31md1c33avu15iqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1PqSCgcnXGT6FeLQHZD14y87JBRWeTr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353676267388-6qrnvdkdnt34mlbl31md1c33avu15iqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
