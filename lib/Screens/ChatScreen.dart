@@ -89,7 +89,7 @@ class _ChatScreenState extends State<ChatScreen> {
                         ),
                       ),
                     ),
-                    FlatButton(
+                    TextButton(
                       onPressed: () {
                         messageTextController.clear();
                         if (_formKey.currentState.validate()) {
