@@ -84,8 +84,10 @@ class _WelcomeState extends State<Welcome> {
                   margin: EdgeInsets.all(15.0),
                   height: 50.0,
                   width: MediaQuery.of(context).size.width / 2,
-                  child: RaisedButton(
-                    color: Colors.purple.shade200,
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.purple.shade200,
+                    ),
                     child: Text(
                       'Login',
                       style: TextStyle(
@@ -105,8 +107,10 @@ class _WelcomeState extends State<Welcome> {
                   margin: EdgeInsets.all(15.0),
                   height: 50.0,
                   width: MediaQuery.of(context).size.width / 2,
-                  child: RaisedButton(
-                    color: Colors.red.shade300,
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.red.shade300,
+                    ),
                     child: Text(
                       'Signup',
                       style: TextStyle(
