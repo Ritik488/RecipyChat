@@ -76,7 +76,9 @@ class _ChatScreenState extends State<ChatScreen> {
                           messageText = value;
                         },
                         validator: (value) {
-                          return value.isEmpty ? 'Enter a valid message' : null;
+                          return messageTextController.text.isEmpty
+                              ? 'Enter a valid message'
+                              : null;
                         },
                         decoration: InputDecoration(
                           hintText: 'Type a message',
@@ -91,13 +93,13 @@ class _ChatScreenState extends State<ChatScreen> {
                     ),
                     TextButton(
                       onPressed: () {
-                        messageTextController.clear();
                         if (_formKey.currentState.validate()) {
                           _firestore.collection('messages').add({
                             'Text': messageText,
                             'Sender': loggedInUser.email,
                           });
                         }
+                        messageTextController.clear();
                       },
                       child: Text(
                         'Send',
